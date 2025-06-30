@@ -39,5 +39,5 @@ public class LargeEdgeGroupQueryRspVO implements Serializable {
 	/**
 	* 合约代码列表
 	*/
-	private List<ContractIDVO> contractIdList;
+	private List<String> contractIdList;
 }

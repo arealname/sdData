@@ -55,5 +55,5 @@ public class LargeEdgeGroupAddReqDTO implements Serializable {
 	* 合约代码列表
 	*/
     @Valid
-	private List<ContractIDDTO> contractIdList;
+	private List<String> contractIdList;
 }
