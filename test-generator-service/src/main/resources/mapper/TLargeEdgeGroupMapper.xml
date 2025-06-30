@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kingstar.ficc.dao.mapper.TLargeEdgeGroupMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.kingstar.ficc.dao.entity.TLargeEdgeGroup">
+        <id column="ID" property="id" />
+        <result column="LARGE_EDGE_GROUP_ID" property="largeEdgeGroupId" />
+        <result column="LARGE_EDGE_GROUP_NAME" property="largeEdgeGroupName" />
+        <result column="EXCH_CODE" property="exchCode" />
+        <result column="EXCH_NAME" property="exchName" />
+        <result column="CONTRACT_ID" property="contractId" />
+        <result column="CREATE_BY" property="createBy" />
+        <result column="CREATE_TIME" property="createTime" />
+        <result column="UPDATE_TIME" property="updateTime" />
+        <result column="UPDATE_BY" property="updateBy" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ID, LARGE_EDGE_GROUP_ID, LARGE_EDGE_GROUP_NAME, EXCH_CODE, EXCH_NAME, CONTRACT_ID, CREATE_BY, CREATE_TIME, UPDATE_TIME, UPDATE_BY
+    </sql>
+
+</mapper>
